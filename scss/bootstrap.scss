@@ -1,0 +1,25 @@
+
+$primary: #CE9233;
+$secondary: #797672;
+$light: #F9F8F7;
+$dark: #2B2C2E;
+
+$font-family-base: 'Poppins', sans-serif;
+
+$headings-font-family: 'Roboto', sans-serif;
+
+$body-color: $secondary;
+
+
+
+$headings-font-weight: 700;
+
+$display-font-weight: 800;
+
+$enable-responsive-font-sizes: true;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;
+
+@import "bootstrap/scss/bootstrap";

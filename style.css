@@ -1,0 +1,9 @@
+.services-img {
+  width: 200px;
+  height: 400px;            /* fixed height for all images */
+  object-fit: cover;        /* crops evenly without stretching */  /* keeps the crop centered */
+  display: block;
+}
+
+
+

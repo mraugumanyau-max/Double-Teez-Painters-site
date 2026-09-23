@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Double Teez Painters</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--whatsapp link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-info" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-info text-white d-none d-lg-flex wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-3">
+            <div class="d-flex align-items-center">
+                <img src="photos/logo.jpg" alt="Logo" width="130" height="100"  class="logo me-2">
+                <a href="index.html">
+                    <h2 class="text-white fw-bold m-0">Double Teez Painters</h2>
+                </a>
+                <div class="ms-auto d-flex align-items-center">
+                    <small class="ms-4"><i class="fa fa-map-marker-alt me-3"></i>No. 617 ZBS Ngangu Township
+                        Chimanimani</small>
+                    <small class="ms-4"><i class="fa fa-envelope me-3"></i>tapezthombo@gmail.com</small>
+                    <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>+263 771 756 512 / +263 714 821 352</small>
+                    <div class="ms-3 d-flex">
+                        <a class="btn btn-sm-square btn-light text-info ms-2" href="https://wa.me/263785084448"><i
+                                class="bi bi-whatsapp  "></i></a>
+                        <a class="btn btn-sm-square btn-light text-info ms-2" href=""><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light sticky-top wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light p-lg-0">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <h1 class="fw-bold m-0">Double Teez Painters</h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active text-success">Home</a>
+                        <a href="about.html" class="nav-item nav-link ">About</a>
+                        <a href="service.html" class="nav-item nav-link ">Services</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                                <a href="feature.html" class="dropdown-item text-success">Features</a>
+                                <a href="appoinment.html" class="dropdown-item text-success ">Appoinment</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link text-success">Contact</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-block">
+                        <a href="contact.html" class="btn btn-info rounded-pill">Get A Quote</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-6 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1">
+                    <img class="img-fluid" src="photos/pic5.jpg" alt="Image">
+                </button>
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="img-fluid" src="photos/pic2.jpg" alt="Image">
+                </button>
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="img-fluid" src="photos/pic1.jpg" alt="Image">
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="photos/corousel5.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <h1 class="display-1 text-uppercase text-info mb-4 animated zoomIn">Best Painting Solutions
+                        </h1>
+                        <a href="service.html" class="btn btn-light rounded-pill bg-secondary py-3 px-4">Explore More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="photos/corousel10.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <h1 class="display-1 text-uppercase text-info mb-4 animated zoomIn">Best Painting Solutions
+                        </h1>
+                        <a href="#" class="btn btn-light rounded-pill bg-secondary py-3 px-4">Explore More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="photos/corousel8.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <h1 class="display-1 text-uppercase text-info mb-4 animated zoomIn">Best Painting Solutions
+                        </h1>
+                        <a href="#" class="btn btn-light rounded-pill bg-secondary py-3 px-4">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <!-- About Us Heading -->
+            <h2 class="display-4 fw-bold mb-4 text-info">About Us</h2>
+            <p class="lead text-success">
+                Transforming spaces with precision, passion, and creativity.
+            </p>
+            <a href="#services" class="btn btn-muted bg-info mt-3 rounded-pill">Learn More</a>
+        </div>
+    </section>
+
+    <div class="container-fluid pt-6 pb-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid w-100" src="photos/pic31.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-6 text-uppercase mb-4 text-info">Where Lasting Impressions Begin with Every
+                        Brushstroke</h1>
+                    <p class="mb-4 text-success">Double Teez Painters is a proffessional painting and property finishing
+                        company dedicated to transforming residential,
+                        commercial and industrial properties through high-quality painting solutions.We combine skilled
+                        workmanship, premium
+                        materials and attention to detail to deliver durable and attractive finishes that increase the
+                        value and appearance of
+                        every property.Our commitment to quality, relaibility and customer satisfaction has earned us
+                        the trust of homeowners,
+                        bussinesses property developers and institutions. </p>
+                    <div class="row g-5 mb-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-xl-square bg-primary me-3">
+                                    <i class="fas fa-paint-brush fa-2x text-success"></i>
+                                </div>
+                                <h5 class="lh-base text-uppercase mb-0 text-info">Certified Expert & Team</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-xl-square bg-primary me-3">
+                                    <i class="fas fa-paint-roller fa-2x text-success"></i>
+                                </div>
+                                <h5 class="lh-base text-uppercase mb-0 text-info">Efficient Large‑Surface Painting</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <p><i class="fa fa fa-check-double text-info me-3 "></i>
+                        <span class="text-success">Committed to customer satisfaction and long‑lasting results</span>
+
+                    </p>
+                    <p><i class="fa fa-check-double text-info me-3"></i>
+                        <span class="text-success">Committed to customer satisfaction and long‑lasting results</span>
+                    </p>
+                    <p><i class="fa fa-check-double text-info me-3 text-success"></i>
+                        <span class="text-success">Committed to customer satisfaction and long‑lasting results</span>
+                    </p>
+                    <div class="border border-5 border-success p-4 text-center mt-4">
+                        <h4 class="lh-base text-uppercase mb-0 text-info">Reliable service with on‑time project
+                            completion
+
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid pt-6 pb-6">
+        <div class="container pt-4">
+            <div class="row g-0 feature-row wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-info mb-4 mt-n4">
+                            <i class="fas fa-paint-brush fa-2x text-light"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase mb-3 text-info">Quality Painting </h5>
+                            <p class="text-success">Represents precision and artistry.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3 text-primary">Read More</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3 text-primary"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-info mb-4 mt-n4">
+                            <i class="fa fa-dollar-sign fa-2x text-light"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase text-info">Affordable Pricing</h5>
+                            <p class="text-success">Clear symbol for cost and value.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3 text-primary">Read More</b> <i
+                                    class="fa fa-user-check bg-white ps-3 text-primary"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-info mb-4 mt-n4">
+                            <i class="fa fa-check-double fa-2x text-light"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase text-info">Trusted Painters</h5>
+                            <p class="text-success">Shows teamwork and reliability.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3 text-primary">Read More</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3 text-primary"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="feature-item border h-100">
+                        <div class="feature-icon btn-xxl-square bg-info mb-4 mt-n4">
+                            <i class="fa fa-tools fa-2x text-light"></i>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h5 class="text-uppercase text-info">Premium Tools & Materials</h5>
+                            <p class="text-success">Represents modern painting equipment.</p>
+                            <a class="position-relative text-body text-uppercase small d-flex justify-content-between"
+                                href="#"><b class="bg-white pe-3 text-primary">Read More</b> <i
+                                    class="bi bi-arrow-right bg-white ps-3 text-primary"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- Why Choose Us Section -->
+<section class="container-fluid bg-light py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-info">Why Choose Us</h2>
+      <p class="text-success">We deliver quality, reliability, and style in every project.</p>
+    </div>
+    <div class="row text-center">
+      <!-- Feature 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <i class="bi bi-paint-bucket display-4 text-primary mb-3"></i>
+            <h5 class="card-title fw-bold text-info">Expert Painters</h5>
+            <p class="card-text text-success">Our team is highly skilled with years of experience in residential and commercial painting.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <i class="bi bi-brush display-4 text-success mb-3"></i>
+            <h5 class="card-title fw-bold text-info">Quality Materials</h5>
+            <p class="card-text text-success">We use only premium paints and finishes to ensure durability and vibrant results.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <i class="bi bi-clock-history display-4 text-warning mb-3"></i>
+            <h5 class="card-title fw-bold text-info">On-Time Delivery</h5>
+            <p class="card-text text-success">We respect your time and always complete projects within the agreed schedule.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <i class="bi bi-star-fill display-4 text-danger mb-3"></i>
+            <h5 class="card-title fw-bold text-info">Customer Satisfaction</h5>
+            <p class="card-text text-success">Our clients love our work, and we strive to exceed expectations every time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Chose Us Section End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid service pt-6 pb-6">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 text-uppercase mb-5 text-info">Reliable & High-Quality Painting Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="photos/pic5.jpg" alt="">
+                            <div class="service-text px-5 pt-4">
+                                <h5 class="text-uppercase text-info">Residential Painting</h4>
+                                    <p>Enhance your home’s beauty and comfort with professional finishes.
+                                    </p>
+                            </div>
+                            <a class="btn btn-light px-3 text-info" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="photos/pic12.jpg" alt="">
+                            <div class="service-text px-5 pt-4">
+                                <h5 class="text-uppercase text-info">Interior Painting </h4>
+                                    <p>Transform rooms with smooth, vibrant colors that bring spaces to life.
+                                    </p>
+                            </div>
+                            <a class="btn btn-light px-3 text-info" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="photos/pic6.jpg" alt="">
+                            <div class="service-text px-5 pt-4">
+                                <h5 class="text-uppercase text-info">Exterior Painting </h4>
+                                    <p>Protect and refresh your property’s exterior with durable, weather‑resistant
+                                        coatings.
+                                    </p>
+                            </div>
+                            <a class="btn btn-light px-3 text-info" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="photos/pic29.jpg" alt="">
+                            <div class="service-text px-5 pt-4">
+                                <h5 class="text-uppercase text-info">Decorative Finishes</h4>
+                                    <p>Add style with textured walls, feature designs, and creative paint effects.
+                                    </p>
+                            </div>
+                            <a class="btn btn-light px-3 text-info" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="photos/pic1.jpg" alt="">
+                            <div class="service-text px-5 pt-4">
+                                <h5 class="text-uppercase text-info">Roof Painting </h4>
+                                    <p>Extend roof life and improve curb appeal with long‑lasting protection..
+                                    </p>
+                            </div>
+                            <a class="btn btn-light px-3 text-info" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="photos/pic25.jpg" alt="">
+                            <div class="service-text px-5 pt-4">
+                                <h5 class="text-uppercase text-info">Commercial Painting </h4>
+                                    <p>Add style with textured walls, feature designs, and creative paint effects.
+                                    </p>
+                            </div>
+                            <a class="btn btn-light px-3 text-info" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="photos/pic16.jpg" alt="">
+                            <div class="service-text px-5 pt-4">
+                                <h5 class="text-uppercase text-info">Industrial Painting</h4>
+                                    <p>Heavy‑duty coatings for factories, warehouses, and machinery.
+                                    </p>
+                            </div>
+                            <a class="btn btn-light px-3 text-info" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-inner pb-5">
+                            <img class="img-fluid w-100" src="photos/pic13.jpg" alt="">
+                            <div class="service-text px-5 pt-4">
+                                <h5 class="text-uppercase text-info">Property Maintanace</h4>
+                                    <p>Maintaining properties with care and precision..
+                                    </p>
+                            </div>
+                            <a class="btn btn-light px-3 text-info" href="">Read More<i
+                                    class="bi bi-chevron-double-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Appoinment Start -->
+    <div class="container-fluid appoinment mt-6 mb-6 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pt-5">
+            <div class="row gy-5 gx-0">
+                <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
+                    <h1 class="display-6 text-uppercase text-info mb-4">We Complete Our Painting Projects in Time
+                    </h1>
+                    <p class="text-white mb-5 wow fadeIn" data-wow-delay="0.4s">
+                        .</p>
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.5s">
+                        <div class="btn-lg-square bg-white">
+                            <i class="bi bi-geo-alt text-info fs-3"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h6 class="text-info text-uppercase">Office Address</h6>
+                            <span class="text-info">No. 617 ZBS Ngangu Township Chimanimani</span>
+                        </div>
+                    </div>
+                    <hr class="bg-body">
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.6s">
+                        <div class="btn-lg-square bg-white">
+                            <i class="bi bi-clock text-info fs-3"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h6 class="text-info text-uppercase">Office Time</h6>
+                            <span class="text-info">Mon-Sat 07.00-18.00 Sun Closed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="bg-white p-5">
+                        <h2 class="text-uppercase mb-4 text-info">Online Appoinment</h2>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control border-0 bg-light" id="name"
+                                        placeholder="Your Name">
+                                    <label for="name" class="text-success">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control border-0 bg-light" id="mail"
+                                        placeholder="Your Email">
+                                    <label for="mail" class="text-success">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control border-0 bg-light" id="mobile"
+                                        placeholder="Your Mobile">
+                                    <label for="mobile" class="text-success">Your Mobile</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <select class="form-select border-0 bg-light text-success" id="service">
+                                        <option selected class="">Residential </option>
+                                        <option value="">Commercial </option>
+                                        <option value="">Roofing </option>
+                                        <option value="">Interior</option>
+                                        <option value="">Exterior </option>
+                                        <option value="">Industrial</option>
+                                        <option value="">Furniture</option>
+
+                                    </select>
+                                    <label for="service" class="text-success">Choose A Service</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control border-0 bg-light" placeholder="Leave a message here"
+                                        id="message" style="height: 130px"></textarea>
+                                    <label for="message" class=" text-success">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <a href="mailto:tapezthombo@gmail.com" class="btn btn-info w-100 py-3 text-success"><i class="bi bi-envelope text-success"></i> Submit Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appoinment End -->
+
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid newsletter mt-6 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pb-5">
+            <div class="bg-white p-5 mb-5">
+                <div class="row g-5">
+                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                        <h1 class="display-6 text-uppercase mb-4 text-info">Newsletter</h1>
+                        <div class="d-flex">
+                            <i class="far fa-envelope-open fa-3x text-info me-4"></i>
+                            <p class="fs-5 fst-italic mb-0 text-success">Stay Inspired with Fresh Colors & Tips.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control border-0 bg-light" id="mail"
+                                placeholder="Your Email">
+                            <label class="mail text-info">Your Email</label>
+                        </div>
+                        <a href="mailto:tapezthombo@gmail.com" class="btn btn-info w-100 py-3 text-success"><i class="bi bi-envelope text-success"></i> Submit Now</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Start -->
+
+
+    
+    <!-- Footer Start -->
+<div class="container-fluid bg-success footer py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- Office Info -->
+           
+            <!-- Quick Links -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-light mb-4">Quick Links</h5>
+                <a class="btn btn-link text-primary" href="about.html">About Us</a>
+                <a class="btn btn-link text-primary" href="contact.html">Contact Us</a>
+                <a class="btn btn-link text-primary" href="service.html">Our Services</a>
+                <a class="btn btn-link text-primary" href="about.html">Terms & Conditions</a>
+                <a class="btn btn-link text-primary" href="contact.html">Support</a>
+            </div>
+
+            <!-- Business Hours -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-light mb-4">Business Hours</h5>
+                <p class="text-uppercase mb-0 text-primary">Monday - Friday</p>
+                <p class="text-primary">09:00 am - 07:00 pm</p>
+                <p class="text-uppercase mb-0 text-primary">Saturday</p>
+                <p class="text-primary">09:00 am - 12:00 pm</p>
+                <p class="text-uppercase mb-0 text-primary">Sunday</p>
+                <p class="text-primary">Closed</p>
+            </div>
+
+            <!-- Gallery -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-uppercase text-light mb-4">Gallery</h5>
+                <div class="row g-1">
+                    <div class="col-4"><img class="img-fluid" src="photos/pic12.jpg" alt=""></div>
+                    <div class="col-4"><img class="img-fluid" src="photos/pic18.jpg" alt=""></div>
+                    <div class="col-4"><img class="img-fluid" src="photos/pic5.jpg" alt=""></div>
+                    <div class="col-4"><img class="img-fluid" src="photos/pic2.jpg" alt=""></div>
+                    <div class="col-4"><img class="img-fluid" src="photos/pic9.jpg" alt=""></div>
+                    <div class="col-4"><img class="img-fluid" src="photos/pic4.jpg" alt=""></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Copyright Start -->
+<div class="container-fluid text-body copyright py-4 bg-info">
+    <div class="container">
+        <div class="row">
+            <div class="text-center ">
+                &copy; <a class="fw-semi-bold" href="#">Double Teez Painters</a>, All Rights Reserved.
+                 Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+    <!-- Back to Top Button-->
+    <a href="#" class="btn btn-lg btn-success btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
